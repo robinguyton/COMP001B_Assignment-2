@@ -15,10 +15,16 @@ body {
 
 h1, h2, h3 {
 	font-family: 'Barriecito', cursive;
+
 }
 
 h1 {
 	font-size: 2.5em;
+	width: 500px;
+	padding: 5px;
+	margin-right: auto;
+	
+	
 }
 
 h2 {
@@ -29,13 +35,23 @@ h3 {
 	font-size: 1.5em;
 }
 
-p {
+p {   width: 500px;
+	text-align: right;
+	padding-left: 500px;
+	
+
 
 }
 
-.album-art {
+.album-art {	color: white;
+	padding: 5px;
+	margin: 10px;
+	border: 2px solid;
+	border-color: brown
 
 }
+
+
 
 .clear {
 	clear: both;
@@ -54,6 +70,12 @@ p {
 }
 
 #about-photo {
+	padding: 5px;
+	margin: 10px;
+	border: 2px solid;
+	border-color: brown;
+	
+	
 
 }
 
@@ -61,10 +83,24 @@ p {
 
 }
 
-#section-about, #section-discography, #section-equipment {
+#section-about, #section-discography, #section-equipment {margin-bottom: 5px;
+	margin-top: 20px;
+	color: white;
+	padding: 5px;
+	border: 2px solid;
+	border-color: brown;
+	text-align: justify;
+
 
 }
 
-#text-intro {
-	
+#text-intro { background-color: rgb(59, 60, 60);
+	color: brown;
+	padding: 5px;
+	margin-top: 7px;
+	margin-bottom: 20px;
+	border: 2px solid;
+	border-color: brown;
+	width: auto;
+	text-align: left;
 }
