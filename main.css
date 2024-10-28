@@ -44,10 +44,11 @@ p {   width: 1000px;
 }
 
 .album-art {	color: white;
-	padding: 5px;
-	margin: 10px;
+	padding: 10px;
+	margin: 20px;
 	border: 2px solid;
-	border-color: brown
+	border-color: brown;
+	float:left;
 
 }
 
@@ -62,10 +63,12 @@ p {   width: 1000px;
 }
 
 .record-label {
+	color: red;
 
 }
 
 .track-list {
+	text-align: left
 
 }
 
